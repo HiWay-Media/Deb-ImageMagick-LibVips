@@ -3,7 +3,6 @@ FROM debian:bullseye-slim
 RUN apt-get update && \
     apt-get install -y libvips-dev wget build-essential pkg-config ca-certificates --no-install-recommends 
 #
-RUN ca-certificates
 # Install ImageMagick deps
 RUN apt-get -q -y install libjpeg-dev libpng-dev libtiff-dev \
     libgif-dev libx11-dev --no-install-recommends
