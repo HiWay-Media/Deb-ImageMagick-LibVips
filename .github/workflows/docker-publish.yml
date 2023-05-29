@@ -1,4 +1,4 @@
-name: Docker SuperSet Keycloak
+name: Docker ImageMagick LibVips Keycloak
 #
 on:
   push:
