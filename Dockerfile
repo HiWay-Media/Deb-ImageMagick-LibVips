@@ -18,7 +18,8 @@ RUN cd && \
 	    --without-perl \
 	    --disable-openmp \
 	    --with-gvc=no \
-	    --disable-docs && \
+	    --disable-docs \
+		--with-raw && \
 	make -j$(nproc) && make install && \
 	ldconfig /usr/local/lib
 #
